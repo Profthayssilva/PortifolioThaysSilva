@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+    <title>Portifolio Thays Silva</title>
+
+</head>
+
+<body>
+    <header class="container">
+    <div class="page-header">
+        <div class="logo"> 
+            <img src="logo.PNG" alt="" class="img-w">
+        </div>
+        <input type="checkbox" id="click">
+
+        <label for="click" class="mainicon">
+            <div class="menu">
+                <i class="bx bx-menu"></i>
+            </div>
+
+        </label>
+        <ul>
+            <li><a href="#" class="active" style="--navAni:1"></a></li>
+            <li><a href="#" style="--navAni:2">Sobre mim</a></li>
+            <li><a href="#" style="--navAni:3">Educação Inclusiva</a></li>
+            <li><a href="#" style="--navAni:4">Portifolio</a></li>
+            <li><a href="#" style="--navAni:5">Contato</a></li>
+        
+        </ul>
+    </div>
+    </header>
+
+
+    <section class="container">
+        <div class="main">
+            <div class="rounding-sec">
+                <div class="big-circle">
+                    <div class="icon-block">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIHDQ_CU0W38ktREqnPwdVlGCdA_e4xbaDK9NrjFOpD2AqdcajDV3c9_R3vp034nrC9eyvMThwY8ifNpmH3_8GMg_SzAsLKcWQeSskaVl8HjVtLWilhcBNwfep0yRxq-Z_klBXoYTVX0BaE39VwJ2a-drZup5i8owkdaZF0-KhCaodrtN2Rii9HPZrdlk/s1600/github.png"
+                            alt="" />
+                            
+                        </div>
+                        <div class="icon-block">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoPvxJtYJq2-7BDn6LGcQ6QsT3Bo0vxkKu8WAOZnqsHIiTtGJqsHHHWlqqYN4iQFlVaqTaq7AFkWbY5Wrqxvk9Se1Wc_rjA7UKZoXHoxqSWXyaTg9aL9RC37H78NTnT4TwePdwqEYwVw8VxtjPoy6eG-f7RTJhX0JCa0lPmpfaz69hJ1ZHI9seBrUuvf4/s64/instagram.png"
+                                 alt="" />
+                                </div>
+                                <div class="icon-block">
+                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-WWnXxgKNxwqarx8Vr_xpaCcwOQbv7bpFxWXy1o7DCq7jZNiT3CFdAo52AvJol-C-3InAzj6B4isdJVwVCAlUY9jxqgM43wDXrmfsqL4PGr-fsBG0YjcOzwAHFscoDXg3EGlhupxjKRwrMe7Y2bX9VzTc-RY95A03bV1avKnjwJZjh0HKbGZDEa73mPU/s1600/telegram.png"
+                                        alt="" />
+                                </div>
+                                <div class="icon-block">
+                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiejpFbnjtnjhErKo-66_ATecAMmYtSrLzQYdIRMRAxLHtgMUZKnA6jGJQsTMnrniZmMhTZydWkR-l2cpZcGEBGlI4Ptl9ogR-NSPF2wNO5FQdMlL_xaGHQfPnSRIh0Lg4JX0PJLjg9p-tAL9Y8qFbbuGIW3YoolXiMja2qujyDjcFPYGzsPu-RyHle2Jc/s1600/youtube.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="images">
+                                <img src="foto.PNG" alt="" class="img-w">
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <h3>Olá, sou</h3>
+                            <h1><span style="color:#f9532d;">Thays</span> Silva</h1>
+                            <p>Uma profissional dedicada e apaixonada pela educação e tecnologia. Sou graduada em Gestão Pública pela Universidade Pitágoras Unopar, além de possuir uma Licenciatura em Pedagogia pela Universidade Estadual de Goiás. Com o intuito de aprimorar ainda mais meu conhecimento, conquistei uma Pós-Graduação Lato Sensu em Ludopedagogia e Educação Especial.</p>
+                            <br>
+                            <p>Minha jornada na área da tecnologia não para por aí. Recebi a Certificação de Desenvolvedora Full Stack Júnior pela renomada StartSe Tech Academy, consolidando assim minha expertise no mundo do desenvolvimento de software.</p>
+                           <br>
+                           <p>Atualmente, desempenho o papel de Professora de Programação, uma oportunidade única de unir minha paixão pela educação e minha habilidade técnica. Minhas aulas abrangem todos os níveis, desde iniciantes até profissionais, e são especialmente adaptadas para crianças com idades entre 5 e 16 anos. Acredito firmemente que a introdução à programação desde cedo pode abrir portas para um futuro repleto de possibilidades.</p>
+                            <br>
+                            <p>Navegue pelo meu site para conhecer mais sobre meus projetos, metodologias de ensino e como estou contribuindo para o desenvolvimento educacional e tecnológico. Seja bem-vindo a este espaço onde a educação se encontra com a inovação!</p>
+                            <!-- Botão de Contato -->
+<button onclick="openPopup()">Contato</button>
+
+<!-- Janela Pop-up -->
+<div id="popup" class="popup">
+    <span class="close-btn" onclick="closePopup()">X</span>
+    <p>Entre em contato:</p>
+    <p>
+        <img src="icone_telefone.png" alt="Ícone de telefone" width="20" height="20">
+        Telefone: +55 62 995032390
+    </p>
+    <p>
+        <img src="icone_email.png" alt="Ícone de e-mail" width="20" height="20">
+        E-mail: tplsilva05@gmail.com
+    </p>
+</div>
+
+
+<script>
+    // Função para abrir a janela pop-up
+    function openPopup() {
+        var popup = document.getElementById('popup');
+        popup.style.display = 'block';
+    }
+
+    // Função para fechar a janela pop-up
+    function closePopup() {
+        var popup = document.getElementById('popup');
+        popup.style.display = 'none';
+    }
+
+    // Adicione a seguinte função para fechar a janela pop-up quando clicar fora dela
+    window.onclick = function (event) {
+        var popup = document.getElementById('popup');
+        if (event.target == popup) {
+            popup.style.display = 'none';
+        }
+    };
+</script>
+                </section>  
+               
+                <section class="habilidade">
+                    <div class="detail">
+                    
+                    </div>
+                   
+                </section>
+                <footer>
+                    <p>&copy; 2024 Thays Silva. Todos os direitos reservados.</p>
+                </footer> 
+</body>
+</html>
